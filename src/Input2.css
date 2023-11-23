@@ -4,10 +4,13 @@
     display:flex;
     flex-direction: row;
     height:0px;
-    width:100%;
+    align-items:center;
+    justify-content:flex-end;
     background-color: #FFF;
-    transition: height 0.5s ease-in-out; 
+    transition: height 0.5s ease-in-out;
+    transition-delay: 0.1s;
 }
+
 .input-container:focus-within{
     height:80px;
     transition: height 0.5s ease-in-out; 
@@ -39,12 +42,14 @@
 }
 
 .check-mark{
+    display:flex;
+    align-items:center;
     margin-right: 20px;
-    justify-self: flex-end;
-    align-self:center;
+    align-self: center; /* Ustaw na środek w pionie */
     transition: scale 300ms ease-in-out;
-    scale:1;
-    font-size:24px;
+    scale: 1;
+    font-size: calc(100% +10px);
+    height: 100%;
 }
 
 
