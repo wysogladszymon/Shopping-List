@@ -4,7 +4,7 @@
     position:relative;
     justify-content: space-between;
     height:80px;
-    width:100%;
+    width:calc(100% - 40px);
     color:#000000;
     font-size:calc(10px + 2vmin);
     text-align: left;
@@ -14,16 +14,23 @@
     transition: background-color var(--trans-speed) ease-in-out;
     transition: color var(--trans-speed) ease-in-out;
     z-index:1;
+    right:0px;
     
 }
+
 .cancel-cross{
-    margin-right: 50px;
+    margin-right: 20px;
     justify-self: flex-end;
     align-self:center;
     transition: scale 300ms ease-in-out;
     scale:1;
+    font-size:24px;
 }
 
+.cancel-cross:hover{
+    scale:1.2;
+    transition: scale 300ms ease-in-out;
+}
 
 .product::before{
     position:absolute;
@@ -50,9 +57,5 @@
     cursor:pointer;
     color:white;
     transition:color var(--trans-speed) ease-in-out;
-}
-.cancel-cross:hover{
-    scale:1.2;
-    transition: scale 300ms ease-in-out;
 }
 

@@ -1,0 +1,55 @@
+.input-container{
+    border-top: 3px solid #000;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    height:0px;
+    width:100%;
+    background-color: #FFF;
+    transition: height 0.5s ease-in-out; 
+}
+.input-container:focus-within{
+    height:80px;
+    transition: height 0.5s ease-in-out; 
+}
+
+
+.inputs{
+    all:unset;
+    background-color: transparent;
+    color: #000;
+    height:100%;
+    font-size: calc(2mv + 5px);
+    padding-left:40px;
+    text-align:left;
+}
+
+.inputs::placeholder{
+    left:0px;
+}
+
+.input-product{
+    width:100%;
+}
+
+.input-amount{
+    width:100px;
+    margin-right:10px;
+    padding-left:0px;
+}
+
+.check-mark{
+    margin-right: 20px;
+    justify-self: flex-end;
+    align-self:center;
+    transition: scale 300ms ease-in-out;
+    scale:1;
+    font-size:24px;
+}
+
+
+.check-mark:hover{
+    scale:1.2;
+    transition: scale 300ms ease-in-out;
+    cursor: pointer;
+}
