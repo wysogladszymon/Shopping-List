@@ -5,8 +5,9 @@ export function Product(props) {
 
   return (
     <li id={props.id} className={cls} onClick={props.onClick}>
-      {props.title}
-      <div className="cancel-cross" onClick={props.onClick}>
+      <div className='product-title'>{props.title}</div>
+      <input className='product-amount' placeholder={props.amount}></input>
+      <div className="cancel-cross" onClick={props.crossOnClick}>
         &#10060;
       </div>
     </li>

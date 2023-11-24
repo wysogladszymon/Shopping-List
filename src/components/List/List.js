@@ -11,9 +11,7 @@ export function List(props) {
     <div className={cls}>
       <h1 className="list-title">Shopping List</h1>
       <Input2 />
-      {products.map((elem, index) => (
-        <Product key={index} title={elem} />
-      ))}
+      {props.children}
     </div>
   );
 }

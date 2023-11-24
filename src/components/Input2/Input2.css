@@ -6,9 +6,10 @@
     height:0px;
     align-items:center;
     justify-content:flex-end;
-    background-color: #FFF;
+    background-color: #FFFFF9;
     transition: height 0.5s ease-in-out;
     transition-delay: 0.1s;
+    position:relative;
 }
 
 .input-container:focus-within{
@@ -19,16 +20,20 @@
 
 .inputs{
     all:unset;
+    font-size:calc(10px + 2vmin);
     background-color: transparent;
     color: #000;
     height:100%;
-    font-size: calc(2mv + 5px);
     padding-left:40px;
     text-align:left;
 }
 
 .inputs::placeholder{
     left:0px;
+    font-size:calc(10px + 1vmin);
+    align-self:center;
+    justify-self:center;
+    transform: translateY(-0.5vmin);
 }
 
 .input-product{
@@ -39,6 +44,9 @@
     width:100px;
     margin-right:10px;
     padding-left:0px;
+    position:absolute;
+    right:80px;
+    transform:translateX(50%);
 }
 
 .check-mark{
