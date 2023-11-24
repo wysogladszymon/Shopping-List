@@ -1,26 +1,26 @@
-#root{
-  --main-color:#9092bb;
-  --anim-color: #0fA;
+#root {
+  --main-color: #9092bb;
+  --anim-color: #0fa;
   --text-color: #000;
-  --bright-text-color:#FFF;
-  --trans-speed:300ms;
-  height:100vmin;
+  --bright-text-color: #fff;
+  --trans-speed: 300ms;
+  height: 100vmin;
 }
 .App {
   text-align: center;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  height:100%;
-  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
-.main{
-  width:100vmax;
-  height:100vmin;
-  display:flex;
+.main {
+  width: 100vmax;
+  height: 100vmin;
+  display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  background-color: 	#A9A9A9;
+  background-color: #a9a9a9;
 }

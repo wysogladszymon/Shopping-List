@@ -1,10 +1,10 @@
-import "./List.css";
-import Product from "./Product";
-import Input from "./Input";
-import { products } from "./data";
-import Input2 from "./Input2";
+import { products } from "../../constants/products-data";
+import { Input2 } from "../Input2";
+import { Product } from "../Product";
 
-export default function List(props) {
+import "./List.css";
+
+export function List(props) {
   const cls = props.className ? `list ${props.className}` : "list";
 
   return (

@@ -1,13 +1,12 @@
 import "./App.css";
-import List from "./List";
-import Button from "./Button";
+import { List, Button } from "./components";
 
 function click(id) {
   const myInput = document.getElementById(id);
   const amountInput = document.querySelector(".input-amount");
 
   myInput.value = "";
-  amountInput.value='';
+  amountInput.value = "";
   myInput.focus();
 }
 // export function click2() {
@@ -27,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <main className="main">
-        <List></List>
+        <List />
         <Button title="add product" onClick={() => click("input-product-id")} />
       </main>
     </div>
