@@ -17,7 +17,8 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 ```
 ## How to open my project
 1. Clone this repository.
-2. Install ```Node.js``` if you're Linux user, all you have to do is open terminal and type in ```sudo apt install nodejs``` and if you're windows user here's the [link](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac) 
+2. Install ```Node.js```.
+ if you're Linux user, all you have to do is open terminal and type in ```sudo apt install nodejs``` and if you're windows user here's the [link](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac) 
 3. Go to this repository in terminal```cd ~/<Your_Path>/Shopping-List ```
 4. Try command ```npm install ``` in order to install packages required in this project.
 5. Run command ```npm start``` to run my app.
