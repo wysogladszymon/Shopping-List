@@ -14,12 +14,14 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 ├── README.md
 ├── package-lock.json
 └── package.json
-
 ```
 ## How to open my project
 1. Clone this repository.
 2. Go to this repository in terminal```cd ~/<Your_Path>/Shopping-List ```
-3. Try command ```npm install ``` in order to install packages required in this nprojects.
+3. Try command ```npm install ``` in order to install packages required in this project.
 4. Run command ```npm start``` to run my app.
 5. Enjoy 😎
+
+## Something about fucure of this project
+First of all, I want it to be my lesson and practice of using ```React```. In the future I want to add some backend to this page and learn a bit of ```Node.js``` and databases.
 
