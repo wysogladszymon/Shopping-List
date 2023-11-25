@@ -1,5 +1,8 @@
 # Shopping Lst
 
-In order to run this project go in terminal to src folder (cd <PATH_TO_THIS_REPO>/src) and write npm install.
+Hi, I am Szymon and this is one of my first React projects, my fitst step to becoming frontend developer :P
 
-After this you should have all packages installed and all you need is write npm start to run this project.
+## How to open my project
+1. Clone this repository
+2. Go to this repository in terminal
+3. Try command <div style="background-color: #FFF; padding: 10px;"><p>npm install</p></div>
