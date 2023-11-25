@@ -17,10 +17,11 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 ```
 ## How to open my project
 1. Clone this repository.
-2. Go to this repository in terminal```cd ~/<Your_Path>/Shopping-List ```
-3. Try command ```npm install ``` in order to install packages required in this project.
-4. Run command ```npm start``` to run my app.
-5. Enjoy 😎
+2. Install ```Node.js``` if you're Linux user all you have to do is open terminal and type in ```sudo apt install node``` and if you're windows user here's the [link](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac) 
+3. Go to this repository in terminal```cd ~/<Your_Path>/Shopping-List ```
+4. Try command ```npm install ``` in order to install packages required in this project.
+5. Run command ```npm start``` to run my app.
+6. Enjoy 😎
 
 ## Something about future of this project
 First of all, I want it to be my lesson and practice of using ```React```. In the future I want to add some backend to this page and learn a bit of ```Node.js``` and databases.
