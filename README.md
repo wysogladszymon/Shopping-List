@@ -5,4 +5,4 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 ## How to open my project
 1. Clone this repository
 2. Go to this repository in terminal
-3. Try command <div style="background-color: #FFF; padding: 10px;"><p>npm install</p></div>
+3. Try command <p style="background-color: #FFF;">npm install</p>
