@@ -22,6 +22,6 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 4. Run command ```npm start``` to run my app.
 5. Enjoy 😎
 
-## Something about fucure of this project
+## Something about future of this project
 First of all, I want it to be my lesson and practice of using ```React```. In the future I want to add some backend to this page and learn a bit of ```Node.js``` and databases.
 
