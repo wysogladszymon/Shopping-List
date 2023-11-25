@@ -1,4 +1,4 @@
-#Shopping Lst
+# Shopping Lst
 
 In order to run this project go in terminal to src folder (cd <PATH_TO_THIS_REPO>/src) and write npm install.
 
