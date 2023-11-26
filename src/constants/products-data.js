@@ -1,3 +1,3 @@
 // export const products = ["chocolate", "apple"];
 
-export const products = {'chocolate' : 1, 'apple' : 2};
+export const products = {'chocolate' : 2, 'apple' : 5, 'peanuts' : 69};

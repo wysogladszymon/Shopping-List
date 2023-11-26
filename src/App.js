@@ -7,17 +7,20 @@ import { warnings } from "./constants/warnings-data";
 function App() {
   let [productsDict, setproductsDict] = useState(products);
   let [invalidAmount, setInvaildAmount] = useState(false);
-  let [invalidWord, setInvaildWord] = useState(false);
+  let [invalidWord, setInvalidWord] = useState(false);
   let [currWord, changeWord] = useState("");
   let [currAmount, changeAmount] = useState("");
   let [warning, setWarning] = useState("");
   const updatedProducts = { ...products };
 
-  function click(id) {
+  function clickButton(id) {
     const myInput = document.getElementById(id);
     changeWord("");
     changeAmount("");
     myInput.focus();
+    setWarning('');
+    setInvaildAmount(false);
+    setInvalidWord(false);
   }
 
   function deleteProduct(name) {
@@ -31,10 +34,10 @@ function App() {
     const regex = /^[a-zA-z]+$/;
     const isValid = regex.test(word);
     if (isValid || word === "") {
-      setInvaildWord(false);
+      setInvalidWord(false);
       return true;
     } else {
-      setInvaildWord(true);
+      setInvalidWord(true);
       return false;
     }
   }
@@ -117,7 +120,7 @@ function App() {
   //     setWarning('')
   //   return
   // }
-  
+
   return (
     <div className="App">
       <main className="main">
@@ -145,7 +148,7 @@ function App() {
             ></Product>
           ))}
         </List>
-        <Button title="add product" onClick={() => click("input-product-id")} />
+        <Button title="add product" onClick={() => clickButton("input-product-id")} />
       </main>
     </div>
   );
