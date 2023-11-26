@@ -4,12 +4,12 @@
     position:relative;
     justify-content: space-between;
     height:80px;
-    width:calc(100% - 40px);
+    width:calc(100% - 20px);
     color:#000000;
     font-size:calc(10px + 2vmin);
     text-align: left;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 20px;
     border-top: 2px solid #000000;
     transition: background-color var(--trans-speed) ease-in-out;
     transition: color var(--trans-speed) ease-in-out;
@@ -72,7 +72,9 @@
 }
 
 .product-title{
-    width:auto;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .product-amount{
@@ -99,7 +101,15 @@
     transform: translateY(-5px);
     transition:transform 0.2s ease-in-out;
 }
+
 .product-amount::placeholder{
     color:#FFF;
 }
 
+.checkbox{
+    /* all:unset; */
+    width:30px;
+    height:30px;
+
+    
+}

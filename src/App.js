@@ -6,7 +6,6 @@ import { products } from "./constants/products-data";
 
 function App() {
   let [productsDict, setproductsDict] = useState(products);
-  //have to check if our amount is a number 
   let [invalidAmount, setInvaildAmount] = useState(false);
   let [invalidWord, setInvaildWord] = useState(false);
   let [currWord, changeWord]= useState('');
@@ -71,21 +70,36 @@ function App() {
     }
   }
 
-  function clickInput2(event){
-    const keyPressed = event.key;
+  function addProduct(key, value){
     const boolAmount = checkAmount(currAmount);
     const boolProduct = checkWord(currWord);
+    if (boolProduct && boolAmount && currAmount !== '' && currWord !== ''){ //checks if it is valid
+      if (key in products){ //if it is already in dict, sum the values
+        updatedProducts[key] = String(Number(updatedProducts[key]) + Number(value));
+        products[key] = String(Number(products[key]) + Number(value));
+      }
+      else{
+        updatedProducts[key] = value;
+        products[key] = value;
+      }
+      setproductsDict(updatedProducts);
+      changeWord('');
+      changeAmount('');
+    }
+    else if (currAmount === '' || currWord === ''){
+      //add information that one of inputs is empty
+    }
+    else{
+      return //add information that inputs are incorrect
+    } 
+  }
+  function clickInput2(event){
+    const keyPressed = event.key;
     const focus = document.querySelector('.input-product');
 
     if (keyPressed === 'Enter'){
-      if (boolProduct && boolAmount){
-        updatedProducts[currWord] = currAmount;
-        products[currWord] = currAmount;
-        setproductsDict(updatedProducts);
-        changeWord('');
-        changeAmount('');
-        focus.focus();
-      }
+      addProduct(currWord,currAmount)
+      focus.focus();
     }
   }
   return (
