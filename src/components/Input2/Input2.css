@@ -3,12 +3,34 @@
     border-top: 3px solid #000;
     width:100%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     height:0px;
     align-items:center;
     justify-content:flex-end;
     background-color: #FFFFF9;
     transition: height 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    position:relative;
+    overflow:hidden;
+}
+.input-container p{
+    position:relative;
+    top:10px;
+    height:100%;
+    width:100%;
+    color:#B33A3A;
+}
+
+.myForm{
+    all:unset;
+    top:20px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    height:100%;
+    align-items:center;
+    justify-content:flex-end;
+    background-color: #FFFFF9;
     transition-delay: 0.1s;
     position:relative;
 }

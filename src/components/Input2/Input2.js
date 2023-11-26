@@ -1,9 +1,10 @@
 import "./Input2.css";
 
-export function Input2({errorProduct, errorAmount, productID, amountID,amountVal, productVal, changeProduct, changeAmount, keyDownAmount, keyDownProduct}) {
+export function Input2({children,errorProduct, errorAmount, productID, amountID,amountVal, productVal, changeProduct, changeAmount, keyDownAmount, keyDownProduct}) {
 
   return (
-    <form className="input-container">
+    <div className="input-container">
+      <form className='myForm'>
       <input
         placeholder="product"
         className={errorProduct ? "inputs input-product error-input" : "inputs input-product"}
@@ -22,7 +23,8 @@ export function Input2({errorProduct, errorAmount, productID, amountID,amountVal
         onChange = {changeAmount}
         onKeyDown={keyDownAmount}
       />
-      {/* <div className='check-mark'>&#9989;</div> */}
-    </form>
+      </form>
+      {children}
+    </div>
   );
 }

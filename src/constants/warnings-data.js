@@ -1,0 +1,1 @@
+export const warnings = ['WARNING! Your data is empty. Please fill the gaps.', 'WARNING! Your data is incorrect.'];
