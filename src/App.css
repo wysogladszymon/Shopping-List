@@ -4,7 +4,9 @@
   --text-color: #000;
   --bright-text-color: #fff;
   --trans-speed: 300ms;
-  height: 100vmin;
+  --background-color: #a9a9a9;
+  height: 100%;
+  background-color: var(--background-color);
 }
 .App {
   text-align: center;
@@ -22,5 +24,5 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  background-color: #a9a9a9;
+
 }

@@ -1,4 +1,5 @@
 .input-container{
+    all:unset;
     border-top: 3px solid #000;
     width:100%;
     display:flex;
@@ -26,6 +27,7 @@
     height:100%;
     padding-left:40px;
     text-align:left;
+    position:relative;
 }
 
 .inputs::placeholder{
@@ -44,7 +46,6 @@
     width:100px;
     margin-right:10px;
     padding-left:0px;
-    position:absolute;
     right:80px;
     transform:translateX(50%);
 }
@@ -53,7 +54,7 @@
     display:flex;
     align-items:center;
     margin-right: 20px;
-    align-self: center; /* Ustaw na środek w pionie */
+    align-self: center; 
     transition: scale 300ms ease-in-out;
     scale: 1;
     font-size: calc(100% +10px);
@@ -65,4 +66,9 @@
     scale:1.2;
     transition: scale 300ms ease-in-out;
     cursor: pointer;
+}
+
+.error-input{
+    color:red;
+    text-decoration: line-through;
 }

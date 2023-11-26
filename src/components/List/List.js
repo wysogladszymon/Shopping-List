@@ -10,7 +10,6 @@ export function List(props) {
   return (
     <div className={cls}>
       <h1 className="list-title">Shopping List</h1>
-      <Input2 />
       {props.children}
     </div>
   );

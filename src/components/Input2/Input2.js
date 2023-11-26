@@ -1,20 +1,28 @@
 import "./Input2.css";
 
-export function Input2() {
+export function Input2({errorProduct, errorAmount, productID, amountID,amountVal, productVal, changeProduct, changeAmount, keyDownAmount, keyDownProduct}) {
+
   return (
-    <div className="input-container">
+    <form className="input-container">
       <input
-        className="inputs input-product"
-        id="input-product-id"
         placeholder="product"
-        pattern="[A-Za-z0-9]+"
+        className={errorProduct ? "inputs input-product error-input" : "inputs input-product"}
+        id = {productID}
+        required
+        value = {productVal}
+        onChange = {changeProduct}
+        onKeyDown={keyDownProduct}
       />
       <input
-        className="inputs input-amount"
         placeholder="amount"
-        pattern="[0-9]+"
+        className={errorAmount ? 'inputs input-amount error-input ':"inputs input-amount"}
+        id = {amountID}
+        required
+        value = {amountVal}
+        onChange = {changeAmount}
+        onKeyDown={keyDownAmount}
       />
       {/* <div className='check-mark'>&#9989;</div> */}
-    </div>
+    </form>
   );
 }
