@@ -3,10 +3,11 @@
 Hi, I am Szymon and this is one of my first React projects, my fitst step to becoming best frontend developer :eyes:
 
 ## What have I learned during this project
-1. How React fastens doing interactive websites.
-2. How to animate items in css.
-3. How hooks in React like: useState, useRef and useEffect works.
-4. How to keep work clean in your project.
+1. Basice of React.
+2. How React fastens doing interactive websites.
+3. How to animate items in css.
+4. How hooks in React like: useState, useRef and useEffect works.
+5. How to keep work clean in your project.
 
 ## Folder structure of this project
 ```
