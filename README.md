@@ -24,6 +24,15 @@ Hi, I am Szymon and this is one of my first React projects, my fitst step to bec
 5. Run command ```npm start``` to run my app.
 6. Enjoy 😎
 
+## How it looks
+![Screenshot from 2024-02-08 18-52-40](https://github.com/wysogladszymon/Shopping-List/assets/128485360/8fdba125-7e36-464a-b5ab-83efb9563e2b)
+
+![Screenshot from 2024-02-08 18-52-57](https://github.com/wysogladszymon/Shopping-List/assets/128485360/396f6994-7168-4df3-ab22-f0c1292534bb)
+
+![Screenshot from 2024-02-08 18-53-02](https://github.com/wysogladszymon/Shopping-List/assets/128485360/e80c4617-920c-4a43-9625-59751e45fae2)
+
+![Screenshot from 2024-02-08 18-53-14](https://github.com/wysogladszymon/Shopping-List/assets/128485360/09b635fc-8b44-4ac8-a296-721efb783bb8)
+
 ## Something about future of this project
 First of all, I want it to be my lesson and practice of using ```React```. In the future I want to add some backend to this page and learn a bit of ```Node.js``` and databases.
 
